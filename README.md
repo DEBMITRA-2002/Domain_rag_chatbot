@@ -15,6 +15,13 @@ Instead of answering questions using general knowledge, the chatbot first search
 This helps reduce unsupported or hallucinated answers and allows the application to provide source document and page references.
 
 ---
+## 🏗️ System Architecture
+
+The following diagram illustrates the complete workflow of the DocuMind
+Domain-Specific RAG Chatbot, from PDF ingestion and text chunking to
+semantic retrieval, LLM-based answer generation, and source references.
+
+![DocuMind RAG Architecture](assets/architecture_diagram.png)
 
 ## 🎯 Objectives
 
@@ -72,3 +79,4 @@ The application follows the following workflow:
                       │
                       ▼
               Source + Page
+
